@@ -1,0 +1,30 @@
+body {
+    background-color: cornsilk;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+ul ,ol{
+    display: inline-block;
+    text-align: left;
+}
+
+ol > li::marker {
+    font-weight: bold;
+}
+
+h1, h2 {
+    text-decoration: underline;
+}
+
+#salad {
+    color: darkgreen;
+}
+
+#pasta {
+    color: darkgoldenrod;
+}
+
+#cookies {
+    color: brown;
+}

@@ -1,7 +1,18 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 body {
-    background-color: cornsilk;
+    background-color: seashell;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    margin: 0px;
 }
 
 ul ,ol{
@@ -17,14 +28,65 @@ h1, h2 {
     text-decoration: underline;
 }
 
+h1 {
+    background-color: white;
+    margin: 0px auto;
+    padding: 16px;
+    
+}
+
+h1, p, #index-ul {
+    border-bottom-style: groove;
+    border-bottom-color: silver;
+}
+
+#index-ul {
+    background-color: azure;
+}
+
+p {
+    font-size: 16px;
+    margin: 0px auto;
+    padding: 16px;
+    background-color:beige;
+}
+
+.home {
+    padding: 16px;
+}
+
+#cookies:hover, #salad:hover, #pasta:hover {
+    color:white;
+}
+
+#cookies, #salad, #pasta {
+    font-size: 32px;
+}
+
+#index {
+    font-size: 20px;
+}
+
 #salad {
     color: darkgreen;
+}
+
+#salad:hover {
+    background-color: darkgreen;
 }
 
 #pasta {
     color: darkgoldenrod;
 }
 
+#pasta:hover {
+    background-color: darkgoldenrod;
+}
+
 #cookies {
     color: brown;
+}
+
+#cookies:hover {
+    background-color: brown;
 }
